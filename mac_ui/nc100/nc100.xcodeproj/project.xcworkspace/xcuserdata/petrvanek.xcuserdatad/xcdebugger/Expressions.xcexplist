@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "auto FileTransferWorker::doJob()::$_0::operator()&lt;fv::Modem::State, unsigned int&gt;(fv::Modem::State, unsigned int) const [inlined]:file_transfer_worker.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "_cancel">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

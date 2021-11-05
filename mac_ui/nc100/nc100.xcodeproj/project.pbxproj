@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		E31FFC2636D52688D7A839FF /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "nc100" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0C594F33600D0DFC8E313781 /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DCD55937D0092A77DC39D015 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		23B97271346081CEE60287D6 /* QtWidgets.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6D0CF0F2CD06FCBD56CA39FB /* QtWidgets.framework */; };
+		5A9E424294A3198BAFACC006 /* formheddump.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3BDA5C1331DE90B5DEBD51C4 /* formheddump.cpp */; settings = {ATTRIBUTES = (); }; };
+		61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */; };
+		630E617E64E85A01A95A3E3F /* moc_formheddump.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CF04103D07632442661189EF /* moc_formheddump.cpp */; settings = {ATTRIBUTES = (); }; };
+		7301D054272480D600ED3D3B /* libbase.a in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7301D0512724806500ED3D3B /* libbase.a */; };
+		8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4B32C2222F82AC56BADEB21 /* OpenGL.framework */; };
+		8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A1A67BEAA744704B29168D39 /* IOKit.framework */; };
+		A1670E06183197D7A69C22F3 /* QtCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5760106A74D9EBAE94F4C632 /* QtCore.framework */; };
+		A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */; };
+		AAE3D062D29836E93646D29E /* QtGui.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 51416F4FA19AE02A5BB2FF47 /* QtGui.framework */; };
+		B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1B2543FCC48E9436F21C4F63 /* Metal.framework */; };
+		B58EDA9F8A786B1DB0D4B458 /* moc_widget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CCD9F7CFECCB9811FFDB734B /* moc_widget.cpp */; settings = {ATTRIBUTES = (); }; };
+		CEBA5CEB72F05D266479219C /* configuration.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = DDD48F18715A01BCA41C8A38 /* configuration.cpp */; settings = {ATTRIBUTES = (); }; };
+		D0C680915BF22E7A096A5682 /* file_transfer_worker.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 12F5D19A71AA23303C20014C /* file_transfer_worker.cpp */; settings = {ATTRIBUTES = (); }; };
+		DF0EB561A2CE0142E2F2570B /* widget.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A4FFC08943430A152A03518E /* widget.cpp */; settings = {ATTRIBUTES = (); }; };
+		E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */; };
+		EFC7B92C98B6A704971A9624 /* moc_file_transfer_worker.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F70A1B562DBC9ACBD2666C3D /* moc_file_transfer_worker.cpp */; settings = {ATTRIBUTES = (); }; };
+		F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 723F90793B2C195E2CCB2233 /* AppKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7301D03627247F1C00ED3D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E31FFC2636D52688D7A839FF;
+			remoteInfo = "Qt Preprocess";
+		};
+		7301D0502724806500ED3D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7301D04C2724806500ED3D3B /* base.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 73F2890626EA0E3D008D49C3;
+			remoteInfo = base;
+		};
+		7301D0522724809500ED3D3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7301D04C2724806500ED3D3B /* base.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 73F2890526EA0E3D008D49C3;
+			remoteInfo = base;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99542592E9780B9225F24AA8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		067311EBC43DB2D3CD1D7649 /* ui_formheddump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_formheddump.h; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/ui_formheddump.h; sourceTree = "<absolute>"; };
+		12F5D19A71AA23303C20014C /* file_transfer_worker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = file_transfer_worker.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/file_transfer_worker.cpp; sourceTree = "<absolute>"; };
+		1B2543FCC48E9436F21C4F63 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = /System/Library/Frameworks/Metal.framework; sourceTree = "<absolute>"; };
+		28807D4C2999D12BA75EBB09 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/.qmake.stash; sourceTree = "<absolute>"; };
+		2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DiskArbitration.framework; path = /System/Library/Frameworks/DiskArbitration.framework; sourceTree = "<absolute>"; };
+		3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
+		3BDA5C1331DE90B5DEBD51C4 /* formheddump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = formheddump.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/formheddump.cpp; sourceTree = "<absolute>"; };
+		407B4CD9A8AE657E2EC019D4 /* nc100.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = nc100.pro; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/nc100.pro; sourceTree = "<absolute>"; };
+		51416F4FA19AE02A5BB2FF47 /* QtGui.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtGui.framework; path = /Users/petrvanek/Qt/6.2.0/macos/lib/QtGui.framework; sourceTree = "<absolute>"; };
+		5760106A74D9EBAE94F4C632 /* QtCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtCore.framework; path = /Users/petrvanek/Qt/6.2.0/macos/lib/QtCore.framework; sourceTree = "<absolute>"; };
+		59CDE5293A3816ECBE497C22 /* configuration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = configuration.h; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/configuration.h; sourceTree = "<absolute>"; };
+		5B57E40D82EDF213AA16CFD0 /* widget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = widget.h; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/widget.h; sourceTree = "<absolute>"; };
+		60F88A287ED4665D2ED58351 /* nc100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nc100.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0CF0F2CD06FCBD56CA39FB /* QtWidgets.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QtWidgets.framework; path = /Users/petrvanek/Qt/6.2.0/macos/lib/QtWidgets.framework; sourceTree = "<absolute>"; };
+		70CDAE256DCF653F14830D92 /* formheddump.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = formheddump.h; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/formheddump.h; sourceTree = "<absolute>"; };
+		723F90793B2C195E2CCB2233 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		7301D04127247FA700ED3D3B /* libbase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libbase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7301D04C2724806500ED3D3B /* base.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = base.xcodeproj; path = ../../base/base.xcodeproj; sourceTree = "<group>"; };
+		7BB045BF1135666135DB92EE /* ui_widget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ui_widget.h; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/ui_widget.h; sourceTree = "<absolute>"; };
+		8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		A1A67BEAA744704B29168D39 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		A4FFC08943430A152A03518E /* widget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = widget.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/widget.cpp; sourceTree = "<absolute>"; };
+		BD5054D16BDAFBF9EEB40DC8 /* formheddump.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = formheddump.ui; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/formheddump.ui; sourceTree = "<absolute>"; };
+		CCD9F7CFECCB9811FFDB734B /* moc_widget.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_widget.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/moc_widget.cpp; sourceTree = "<absolute>"; };
+		CF04103D07632442661189EF /* moc_formheddump.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_formheddump.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/moc_formheddump.cpp; sourceTree = "<absolute>"; };
+		D3A6BAE96E67A9C1CA99B220 /* widget.ui */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = widget.ui; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/widget.ui; sourceTree = "<absolute>"; };
+		D4B32C2222F82AC56BADEB21 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		DCD55937D0092A77DC39D015 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/main.cpp; sourceTree = "<absolute>"; };
+		DDD48F18715A01BCA41C8A38 /* configuration.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = configuration.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/configuration.cpp; sourceTree = "<absolute>"; };
+		E5648063493ACB27401CADFA /* file_transfer_worker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = file_transfer_worker.h; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/file_transfer_worker.h; sourceTree = "<absolute>"; };
+		F70A1B562DBC9ACBD2666C3D /* moc_file_transfer_worker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_file_transfer_worker.cpp; path = /Users/petrvanek/Documents/development/nc100/mac_ui/nc100/moc_file_transfer_worker.cpp; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7301D054272480D600ED3D3B /* libbase.a in Link Binary With Libraries */,
+				23B97271346081CEE60287D6 /* QtWidgets.framework in Link Binary With Libraries */,
+				AAE3D062D29836E93646D29E /* QtGui.framework in Link Binary With Libraries */,
+				F2A75ACAC9DF6A3F4E5711E7 /* AppKit.framework in Link Binary With Libraries */,
+				61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */,
+				B3FE8FAC746D3D5BB24FA398 /* Metal.framework in Link Binary With Libraries */,
+				A1670E06183197D7A69C22F3 /* QtCore.framework in Link Binary With Libraries */,
+				A99B2AA0F9CBBDD12BA126A4 /* DiskArbitration.framework in Link Binary With Libraries */,
+				8D267F2E4776F0ECA2F49DC8 /* IOKit.framework in Link Binary With Libraries */,
+				E45E51A644D5FC9F942ECE55 /* AGL.framework in Link Binary With Libraries */,
+				8771A8C96E9C391044035D99 /* OpenGL.framework in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E908B8A1C3C07C115504F5 /* Sources [uic] */ = {
+			isa = PBXGroup;
+			children = (
+				BD5054D16BDAFBF9EEB40DC8 /* formheddump.ui */,
+				D3A6BAE96E67A9C1CA99B220 /* widget.ui */,
+			);
+			name = "Sources [uic]";
+			sourceTree = "<group>";
+		};
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F70A1B562DBC9ACBD2666C3D /* moc_file_transfer_worker.cpp */,
+				CF04103D07632442661189EF /* moc_formheddump.cpp */,
+				CCD9F7CFECCB9811FFDB734B /* moc_widget.cpp */,
+				067311EBC43DB2D3CD1D7649 /* ui_formheddump.h */,
+				7BB045BF1135666135DB92EE /* ui_widget.h */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				12F5D19A71AA23303C20014C /* file_transfer_worker.cpp */,
+				3BDA5C1331DE90B5DEBD51C4 /* formheddump.cpp */,
+				DCD55937D0092A77DC39D015 /* main.cpp */,
+				A4FFC08943430A152A03518E /* widget.cpp */,
+				DDD48F18715A01BCA41C8A38 /* configuration.cpp */,
+				E5648063493ACB27401CADFA /* file_transfer_worker.h */,
+				70CDAE256DCF653F14830D92 /* formheddump.h */,
+				5B57E40D82EDF213AA16CFD0 /* widget.h */,
+				59CDE5293A3816ECBE497C22 /* configuration.h */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		7301D03727247F4200ED3D3B /* nested */ = {
+			isa = PBXGroup;
+			children = (
+				7301D04C2724806500ED3D3B /* base.xcodeproj */,
+			);
+			name = nested;
+			sourceTree = "<group>";
+		};
+		7301D04D2724806500ED3D3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7301D0512724806500ED3D3B /* libbase.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				407B4CD9A8AE657E2EC019D4 /* nc100.pro */,
+				28807D4C2999D12BA75EBB09 /* .qmake.stash */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7301D04127247FA700ED3D3B /* libbase.a */,
+				6D0CF0F2CD06FCBD56CA39FB /* QtWidgets.framework */,
+				51416F4FA19AE02A5BB2FF47 /* QtGui.framework */,
+				723F90793B2C195E2CCB2233 /* AppKit.framework */,
+				3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */,
+				1B2543FCC48E9436F21C4F63 /* Metal.framework */,
+				5760106A74D9EBAE94F4C632 /* QtCore.framework */,
+				2B774D8E4178765CE52EAAF5 /* DiskArbitration.framework */,
+				A1A67BEAA744704B29168D39 /* IOKit.framework */,
+				8D9815BDB5BD9F90D2BC05C5 /* AGL.framework */,
+				D4B32C2222F82AC56BADEB21 /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* nc100 */ = {
+			isa = PBXGroup;
+			children = (
+				7301D03727247F4200ED3D3B /* nested */,
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				12E908B8A1C3C07C115504F5 /* Sources [uic] */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = nc100;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60F88A287ED4665D2ED58351 /* nc100.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0DD351C042208983A53370 /* nc100 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "nc100" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+				99542592E9780B9225F24AA8 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7301D0532724809500ED3D3B /* PBXTargetDependency */,
+				BD13EC2B9B21F190CC42B2C6 /* PBXTargetDependency */,
+			);
+			name = nc100;
+			productName = nc100;
+			productReference = 60F88A287ED4665D2ED58351 /* nc100.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "nc100" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* nc100 */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7301D04D2724806500ED3D3B /* Products */;
+					ProjectRef = 7301D04C2724806500ED3D3B /* base.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FF0DD351C042208983A53370 /* nc100 */,
+				E31FFC2636D52688D7A839FF /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7301D0512724806500ED3D3B /* libbase.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libbase.a;
+			remoteRef = 7301D0502724806500ED3D3B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/petrvanek/Documents/development/nc100/mac_ui/nc100 -f nc100.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				file_transfer_worker.h,
+				formheddump.h,
+				widget.h,
+				formheddump.ui,
+				widget.ui,
+			);
+			name = "Qt Preprocessors";
+			outputPaths = (
+				moc_file_transfer_worker.cpp,
+				moc_formheddump.cpp,
+				moc_widget.cpp,
+				ui_formheddump.h,
+				ui_widget.h,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/petrvanek/Documents/development/nc100/mac_ui/nc100 -f nc100.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C680915BF22E7A096A5682 /* file_transfer_worker.cpp in Compile Sources */,
+				5A9E424294A3198BAFACC006 /* formheddump.cpp in Compile Sources */,
+				0C594F33600D0DFC8E313781 /* main.cpp in Compile Sources */,
+				DF0EB561A2CE0142E2F2570B /* widget.cpp in Compile Sources */,
+				CEBA5CEB72F05D266479219C /* configuration.cpp in Compile Sources */,
+				EFC7B92C98B6A704971A9624 /* moc_file_transfer_worker.cpp in Compile Sources */,
+				630E617E64E85A01A95A3E3F /* moc_formheddump.cpp in Compile Sources */,
+				B58EDA9F8A786B1DB0D4B458 /* moc_widget.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7301D0532724809500ED3D3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = base;
+			targetProxy = 7301D0522724809500ED3D3B /* PBXContainerItemProxy */;
+		};
+		BD13EC2B9B21F190CC42B2C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E31FFC2636D52688D7A839FF /* Qt Preprocess */;
+			targetProxy = 7301D03627247F1C00ED3D3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = (
+					x86_64,
+					arm64,
+				);
+				"ARCHS[sdk=macosx*]" = (
+					x86_64,
+					arm64,
+				);
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/petrvanek/Qt/6.2.0/macos/lib,
+					/Users/petrvanek/Qt/6.2.0/macos/lib,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/Users/petrvanek/Qt/6.2.0/macos/lib/QtWidgets.framework/Headers,
+					/Users/petrvanek/Qt/6.2.0/macos/lib/QtGui.framework/Headers,
+					/Users/petrvanek/Qt/6.2.0/macos/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/petrvanek/Qt/6.2.0/macos/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/petrvanek/Qt/6.2.0/macos/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/Users/petrvanek/Qt/6.2.0/macos/lib",
+					"-F/Users/petrvanek/Qt/6.2.0/macos/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PV.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = nc100;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ARCHS = (
+					x86_64,
+					arm64,
+				);
+				"ARCHS[sdk=macosx*]" = (
+					x86_64,
+					arm64,
+				);
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)";
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Users/petrvanek/Qt/6.2.0/macos/lib,
+					/Users/petrvanek/Qt/6.2.0/macos/lib,
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					/Users/petrvanek/Qt/6.2.0/macos/lib/QtWidgets.framework/Headers,
+					/Users/petrvanek/Qt/6.2.0/macos/lib/QtGui.framework/Headers,
+					/Users/petrvanek/Qt/6.2.0/macos/lib/QtCore.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					.,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers,
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/System/Library/Frameworks/AGL.framework/Headers,
+					"/Users/petrvanek/Qt/6.2.0/macos/mkspecs/macx-clang",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/petrvanek/Qt/6.2.0/macos/lib,
+					/System/Library/Frameworks/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-O2",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-O2",
+					"-std=gnu++1z",
+					"-Wall",
+					"-Wextra",
+					"-fPIC",
+					"-DQT_NO_DEBUG",
+					"-DQT_WIDGETS_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-stdlib=libc++",
+					"-headerpad_max_install_names",
+					"-Wl,-rpath,@executable_path/../Frameworks",
+					"-Wl,-rpath,/Users/petrvanek/Qt/6.2.0/macos/lib",
+					"-F/Users/petrvanek/Qt/6.2.0/macos/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "PV.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = nc100;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+				SYMROOT = .xcode;
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = (
+					x86_64,
+					arm64,
+				);
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "PV.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = nc100;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				"ARCHS[sdk=macosx*]" = (
+					x86_64,
+					arm64,
+				);
+				COPY_PHASE_STRIP = NO;
+				ENABLE_BITCODE = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "PV.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = nc100;
+				QMAKE_FULL_VERSION = 1.0.0;
+				QMAKE_PKGINFO_TYPEINFO = "????";
+				QMAKE_SHORT_VERSION = 1.0;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "nc100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "nc100" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}

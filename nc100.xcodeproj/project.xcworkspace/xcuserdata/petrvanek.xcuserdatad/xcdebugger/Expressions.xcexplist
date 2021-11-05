@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "fv::utils::Dirs::getBaseDir():dirs.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "fv::ui::ConsoleMenu::showAndExec(fv::ui::ConsoleMenu const&amp;, std::__1::any&amp;)::&apos;lambda&apos;(fv::ui::ConsoleMenu::MenuItem const&amp;)::operator()(fv::ui::ConsoleMenu::MenuItem const&amp;) const:run.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "key">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "fv::XModem::xmodemReceive():xmodem.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "block">
+            </PersistentString>
+            <PersistentString
+               value = "recvBuffer[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "fv::Modem::X128Send(std::__1::basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt; const&amp;)::$_0::operator()(unsigned char) const:modem.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "sum">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "StringInserter::find(std::__1::basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt; const&amp;, int):main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "r">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "main:main.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "pth">
+            </PersistentString>
+            <PersistentString
+               value = "type">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "fv::ui::App::wmain(int, char const**):application.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "param">
+            </PersistentString>
+            <PersistentString
+               value = "xxxx">
+            </PersistentString>
+            <PersistentString
+               value = "xxxx1">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "fv::Modem::X128Send(std::__1::basic_string_view&lt;char, std::__1::char_traits&lt;char&gt; &gt; const&amp;):modem.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "blkSize">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "fv::serial::Serial::read(unsigned long, unsigned long):serial.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "errno">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
