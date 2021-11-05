@@ -1,6 +1,0 @@
-Target dependency graph (3 targets)
-base in base, no dependencies
-Qt Preprocess in nc100, no dependencies
-nc100 in nc100, depends on:
-base in base (explicit)
-Qt Preprocess in nc100 (explicit)

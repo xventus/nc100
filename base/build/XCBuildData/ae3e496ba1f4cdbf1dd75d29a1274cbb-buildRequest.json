@@ -1,23 +1,17 @@
 {
   "_buildCommand2" : {
-    "command" : "prepareForIndexing",
-    "enableIndexBuildArena" : false,
-    "targets" : null
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
   },
   "buildCommand" : "build",
   "configuredTargets" : [
-    {
-      "guid" : "e6171c95292c13faf5feec7935025048274d12e52f53e3ed73dcc97ecbf9db4a"
-    },
-    {
-      "guid" : "e35217f1383e1a7f663e65b3ddc0cc852b68ce68e31fcffcdc724918ffe0682c"
-    },
     {
       "guid" : "e35217f1383e1a7f663e65b3ddc0cc8527c6e9c70c35108269565879f47a93ed"
     }
   ],
   "containerPath" : "/Users/petrvanek/Documents/GitHub/nc100/mac_ui/nc100/nc100.xcodeproj",
-  "continueBuildingAfterErrors" : true,
+  "continueBuildingAfterErrors" : false,
   "enableIndexBuildArena" : false,
   "hideShellScriptEnvironment" : false,
   "parameters" : {
@@ -57,7 +51,7 @@
   "schemeCommand2" : "launch",
   "shouldCollectMetrics" : false,
   "showNonLoggedProgress" : true,
-  "useDryRun" : true,
+  "useDryRun" : false,
   "useImplicitDependencies" : true,
   "useLegacyBuildLocations" : false,
   "useParallelTargets" : true
